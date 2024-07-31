@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(24, 22, 43);
+}
+
+header {
+    background: rgb(11, 10, 20);
+    box-shadow: 0px 5px 0px 0px rgba(7, 7, 7, 0.192);
+    padding: 7px 0;
+}
+
+header a {
+    text-decoration: none;
+    background: rgb(19, 17, 34);
+    border: none;
+    border-radius: 9px;
+    margin-left: 12px;
+    padding: 5px;
+}
+
+header a:hover {
+    transition: all .5s;
+    background: rgb(18, 6, 131);
+}
+
+h2 {
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.product {
+    margin-top: 10px;
+}
+
+.cart.added {
+    background-color: #28a745;
+    cursor: default;
+    transform: scale(1);
+}
+
+.notification {
+    position: fixed;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: top 0.5s;
+    visibility: hidden;
+    z-index: 999;
+}
+
+
+.notification.show {
+    visibility: visible;
+    top: 20px;
+}
+
+.product p {
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 100px;
+    background: rgb(11, 10, 20);
+    padding: 15px;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.product p:hover {
+    transition: all ease-in-out .5s;
+    background: rgb(26, 23, 44);
+    transform: scale(1.05);
+    cursor: default;
+}
+header h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+div button {
+    height: 40px;
+    margin: 200px 0px 0px 0px;
+    padding: 2px 20px;
+    width: 10%;
+    background: rgb(18, 6, 131);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+div button:hover{
+    transition: all .5s;
+    background: rgb(3, 185, 155);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+div p {
+    margin: 200px 0px 0px 150px;
+    width: 44%;
+}
+
+.reviews {
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.reviews h2 {
+    position: relative;
+    bottom: 60px;
+}
+
+.rate {
+    background: rgb(11, 10, 20);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding: 18px 0px;
+    text-align: center;
+    width: 400px;
+}
+
+.rate:hover {
+    background: rgb(18, 6, 131);
+    transition: all .6s;
+    transform: scale(1.1);
+    cursor: default;
+}
+.rate p {
+    margin: 0px 0px 0px 4px;
+    text-align: center;
+}
+
+.rate h3 {
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 0px 0px 0px 2px;
+    justify-content: center;
+}
+
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(19, 17, 34);
+}
+
+input {
+    background: rgb(24, 22, 43);
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact button {
+    background: rgb(24, 22, 43);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.contact button:hover {
+    cursor: pointer;
+    transition: all .5s;
+    background: rgb(18, 6, 131);
+    transform: scale(1.1);
+}
+
+.contact {
+    margin-bottom: 0px;
+    padding: 14px;
+}
+
+.contact p {
+    margin-left: 1%;
+}
+
+footer {
+    bottom: 0;
+    position: static;
+    padding: 10px;
+    text-align: center;
+    background: rgb(11, 10, 20);
+    width: 100%;
+}

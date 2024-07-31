@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>PS5</h1>
+            <a href="#Product">Product</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="notification" class="notification">Successfully added to cart</div>
+
+        <section id="Product" class="product">
+            <div>
+                <h2>Product</h2>
+                <img src="img/ps5x.webp" alt="Error" width="400px">
+                
+                <button id="cart" class="cart" onclick="addtocart()">Add to cart</button>
+                <p>THe PS5 is the latest Console from the Company Known as SONY. It is a console that Features a variety of next gen Enhancements from its previous Versions. Some of the Characterisitc of the latest PS5 Include: <br><br> -Next Gen Software <br><br> -Stylized and professional casing <br><br> -Next Gen Controller  <br><br>-Smooth Gameplay</p> 
+                
+            </div>
+        </section>
+        <section id="Reviews" class="reviews">
+            <h2>Reviews</h2>
+            <div class="rate">
+                <h3>Zarek:</h3>
+                <p>Amazing Product, ill buy another.</p>
+                <p>★★★★★</p>
+            </div>
+            <div class="rate">
+                <h3>Nathan:</h3>
+                <p>Me gusto este producto muy bien, recomienda a todos. </p> 
+                <p>★★★</p> 
+            </div>
+            <div class="rate">
+                <h3>Jair:</h3>
+                <p>Corre rapido, y no tiene problemas.</p>
+                <p>★★★★</p>
+            </div>
+        </section>
+        <section id="Contact" class="contact">
+            <h2>Contact</h2>
+            <p>For Contact, please enter your message here: <input id="messageInput" type="text" placeholder="Enter Msg here">      <button id="sendButton">Send</button> </p>    
+        </section>
+    </main>
+    
+    <footer>
+        <p>All rights reserved to Kyle Hyde &copy;</p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
